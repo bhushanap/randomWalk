@@ -1,4 +1,4 @@
-![image](https://github.com/bhushanap/randomWalk/assets/83635464/3a432ddd-3250-497c-83cf-4c24fd08d33d)
+<img src='https://github.com/bhushanap/randomWalk/assets/83635464/3a432ddd-3250-497c-83cf-4c24fd08d33d' height='400'>
 
 # Random Walk Simulation
 
@@ -31,7 +31,7 @@ But in reality, one cannot multiply probabilities like that. What we are multipl
 
 Although this feels counterintuitive, it can be shown via simulation that the odds of reaching 110 although lesser than the odds of reaching 99 are much higher than 1:10. Infact, if we multiply these odds with the gains and losses, we can obtain a net profit value.
 
-![image](https://github.com/bhushanap/randomWalk/assets/83635464/fb82d7fe-ded0-4b57-9b14-1618ef2ffaf3)
+<img src='https://github.com/bhushanap/randomWalk/assets/83635464/fb82d7fe-ded0-4b57-9b14-1618ef2ffaf3' height='400'>
 
 This is how the returns look like for various Reward Risk Ratios.
 
