@@ -4,17 +4,17 @@ np.set_printoptions(precision=2)
 steps = 20
 start = 100
 iterations = 300
-sd = 25
+sd = 0.05
 # rr = 1
 # up = 1
 # down = - 1
 
 
-resu = 40
+resu = 20
 startu = 5
 endu = 100
 
-resd = 40
+resd = 20
 startd = 5
 endd = 50
 
@@ -44,8 +44,7 @@ for i,up in enumerate(ups):
             walk.append(position)
             conclude = False
             for step in range(steps):
-                deviate = position*np.random.normal()*sd/start
-                position += deviate
+                position*= (2**(np.random.normal()*sd))
                 walk.append(position)
                 if position > up:
                     win+=1
